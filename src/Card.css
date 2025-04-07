@@ -1,0 +1,27 @@
+
+.card *{
+    background-color: #91A75D;
+}
+
+.card{
+    background-color: #91A75D;
+    width: 200px;
+    height:200px;
+    border: 12px groove #B0C912;
+    text-align: center;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.card h2{
+    padding: 6px;
+    margin: 0px;
+}
+
+.card p{
+    margin: 0px;
+}

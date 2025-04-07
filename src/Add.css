@@ -1,0 +1,23 @@
+.add *{
+    background-color: #91A75D; 
+}
+.add{
+    width: 300px;
+    
+}
+h1{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon img{
+    width: 40px;
+    height:40px;
+}
+.icon{
+    margin-top: 5px;
+}
+
+
+

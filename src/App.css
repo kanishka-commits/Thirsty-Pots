@@ -1,0 +1,13 @@
+*{
+  background-color: #CFD3AD;
+}
+.appclass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardclass{
+  display: flex;
+  justify-content: space-around;
+}
