@@ -21,3 +21,33 @@ h1{
 
 
 
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(37, 45, 26, 0.8); /* dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 999;/* ensure it appears above everything */
+  }
+  @keyframes fadeIn {
+    to {
+      background: rgba(37, 45, 26, 0.8);
+    }
+  }
+  .popup {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  
+  
+  
+  
