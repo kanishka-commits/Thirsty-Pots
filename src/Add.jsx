@@ -25,6 +25,7 @@ const Add = () => {
     //I'm here, I want to add the values in the list, bt here I want to see what's e.target.elements.value
     console.log(e.target.elements.value);
     // console.log(list);
+    
   };
 
   const handleImageUpload = (e) => {
