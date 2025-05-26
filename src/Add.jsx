@@ -97,7 +97,7 @@ const Add = () => {
       )}
 
       {/* Render all added plant cards */}
-      <div className="card-list">
+      <div className="cardclass">
         {list.map((plant, index) => (
           <Card
             key={index}

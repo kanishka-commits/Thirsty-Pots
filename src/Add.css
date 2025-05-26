@@ -1,16 +1,17 @@
-.add *{
-    background-color: #91A75D; 
+.add h1{
+    background-color: #91A75D;
+    border-radius: 50px;
+    font-size: 20px;
+    color:#3c4e13;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .add{
     width: 300px;
     
 }
-h1{
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+
 .icon img{
     width: 40px;
     height:40px;
@@ -27,7 +28,7 @@ h1{
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(37, 45, 26, 0.8); /* dark background */
+    background: rgba(35, 47, 19, 0.8); /* dark background */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,14 +41,14 @@ h1{
     }
   }
   .popup {
-    background: white;
+    background: #cddfa4;
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
     
   }
   
-  
+ 
   
   
   

@@ -1,4 +1,4 @@
-*{
+body{
   background-color: #CFD3AD;
 }
 .appclass{
@@ -9,7 +9,7 @@
 
 .cardclass{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   
   
 }
