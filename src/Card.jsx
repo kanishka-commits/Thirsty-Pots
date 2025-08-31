@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Card.css"
 
-const Card = ({plantname,watertime,image}) => {
+const Card = ({plantName,waterTime,image}) => {
   return (
     <div className="card-list">
         <img src={image}/>
-        <h2>{plantname}</h2>
-        <p>water by : {watertime}</p>
+        <h2>{plantName}</h2>
+        <p>water by : {waterTime}</p>
     </div>
   )
 }

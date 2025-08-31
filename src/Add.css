@@ -1,54 +1,7 @@
-.add h1{
-    background-color: #91A75D;
-    border-radius: 50px;
-    font-size: 20px;
-    color:#3c4e13;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.add{
-    width: 300px;
-    
+.add-conatiner{
+  width:10vw;
+  height:10vh;
+  background-color: aqua;
+
 }
 
-.icon img{
-    width: 40px;
-    height:40px;
-}
-.icon{
-    margin-top: 5px;
-}
-
-
-
-.popup-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(35, 47, 19, 0.8); /* dark background */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 999;/* ensure it appears above everything */
-  }
-  @keyframes fadeIn {
-    to {
-      background: rgba(37, 45, 26, 0.8);
-    }
-  }
-  .popup {
-    background: #cddfa4;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
-    
-  }
-  
- 
-  
-  
-  

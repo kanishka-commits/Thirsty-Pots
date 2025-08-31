@@ -1,15 +1,22 @@
 body{
   background-color: #CFD3AD;
 }
-.appclass{
+.app{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
-
-.cardclass{
+.card-class{
   display: flex;
   justify-content: space-between;
-  
-  
+  flex-direction: row;
+}
+
+.app-class{
+  background-color: #72764d;
+  width: 150px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
